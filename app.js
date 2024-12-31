@@ -10,7 +10,7 @@ const app = express();
 connectDB();
 
 // Middleware
-app.use(cors({ origin: 'https://server-paltech.onrender.com'  }));
+app.use(cors({ origin: 'https://contactmanagement7.vercel.app'  }));
 app.use(bodyParser.json());
 
 // Routes
